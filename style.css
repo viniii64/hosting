@@ -1,0 +1,140 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'sans-serif';
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 250%;
+    background-image: url('fondo.svg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.container {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+    text-align: center;
+    width: 600px;
+    left: calc(50% - 300px);
+    top: 900px;
+}
+
+header {
+    font-size: 4.5em;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+main {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+}
+
+footer {
+    font-size: 1em;
+    margin-top: 20px;
+}
+
+.button {
+    padding: 15px 25px;
+    font-size: 1em;
+    color: white;
+    background-color: #4275ac;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #67affd;
+}
+
+.caja {
+   
+    margin-left: auto;
+    margin-right: auto;
+    place-items: center;
+    align-items: center;
+    background-color:#79ace2;
+    border-radius: 15%;
+    width: 40%;
+    height: 70%;
+
+    
+}
+
+
+
+input {
+    display: block;
+}
+
+
+
+
+.btn-aceptar {
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 10px 20px; 
+    font-size: 16px;
+    border: none;
+    border-radius: 20px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    margin-bottom: 10px;
+
+
+   
+   
+  }
+  
+  .btn-aceptar:hover {
+    background-color: #45a049; 
+  }
+  
+  .btn-aceptar:active {
+    background-color: #295c2a; 
+  }
+
+
+  .btn-limpiar {
+    background-color: #e21818; 
+    
+    color: white; 
+    padding: 10px 20px; 
+    font-size: 16px;
+    border: none;
+    border-radius: 20px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+   
+    
+  }
+  
+  .btn-limpiar:hover {
+    background-color: #a01515; 
+  }
+  
+  .btn-limpiar:active {
+    background-color: #5f1313; 
+  }
+  
+  
